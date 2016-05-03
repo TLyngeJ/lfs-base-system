@@ -1,0 +1,1 @@
+docker run --rm --privileged --userns=host -v /tmp/lfs/lfs:/mnt/lfs tlyngej/lfs-base-system
