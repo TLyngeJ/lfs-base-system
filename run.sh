@@ -5,6 +5,7 @@ LFS=/mnt/lfs
 ln -s /mnt/lfs/tools /tools
 mv /build.sh $LFS
 mv /strip.sh $LFS
+mv /post_build.sh $LFS
 cp -r /scripts $LFS
 mkdir -pv $LFS/{dev,proc,sys,run}
 mknod -m 600 $LFS/dev/console c 5 1
