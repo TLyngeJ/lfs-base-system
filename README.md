@@ -43,5 +43,11 @@ chroot "$LFS" /usr/bin/env -i              \
     /bin/bash --login
 ```
 
-Also, a boot-loader is not installed. Grub is there, so following the
-instructions on the LFS website should be easy enough, for an experienced user.
+A boot-loader is not installed. Grub is there, so following the instructions
+on the LFS website should be easy enough, for an experienced user.
+
+If you need to do any post-build operations (chapter 7 in the LFS book), like
+setting up ethernet devices, this is the time to do so.
+
+Remember to alter the fstab, re-compile the linux package, etc, as well, if you
+need to.
