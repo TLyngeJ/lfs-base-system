@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.50. Intltool-0.51.0
+# 6.42. Intltool-0.51.0
 set -e
 cd $LFS/sources
 rm -rf intltool-0.51.0

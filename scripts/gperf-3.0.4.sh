@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.51. Gperf-3.0.4
+# 6.37. Gperf-3.0.4
 set -e
 cd $LFS/sources
 rm -rf gperf-3.0.4

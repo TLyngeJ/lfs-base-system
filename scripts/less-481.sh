@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.55. Less-481
+# 6.56. Less-481
 set -e
 cd $LFS/sources
 rm -rf less-481

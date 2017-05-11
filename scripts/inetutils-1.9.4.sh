@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.40. Inetutils-1.9.4
+# 6.39. Inetutils-1.9.4
 set -e
 cd $LFS/sources
 rm -rf inetutils-1.9.4

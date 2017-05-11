@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.42. XML::Parser-2.44
+# 6.41. XML::Parser-2.44
 set -e
 cd $LFS/sources
 rm -rf XML-Parser-2.44

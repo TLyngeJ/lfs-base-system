@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.31. Bison-3.0.4
+# 6.29. Bison-3.0.4
 set -e
 cd $LFS/sources
 rm -rf bison-3.0.4

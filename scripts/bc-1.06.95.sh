@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.36. Bc-1.06.95
+# 6.34. Bc-1.06.95
 set -e
 cd $LFS/sources
 rm -rf bc-1.06.95

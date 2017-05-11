@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.29. Iana-Etc-2.30
+# 6.27. Iana-Etc-2.30
 set -e
 cd $LFS/sources
 rm -rf iana-etc-2.30

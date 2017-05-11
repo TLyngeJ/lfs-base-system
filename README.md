@@ -15,7 +15,7 @@ and do so, before attempting to start using this one.
 ## Getting started
 To compile the packages, run this command:
 ```
-docker run --rm --privileged --userns=host -v /tmp/lfs/lfs:/mnt/lfs tlyngej/lfs-base-system:7.9
+docker run --rm --privileged --userns=host -v /tmp/lfs/lfs:/mnt/lfs tlyngej/lfs-base-system:8.0
 ```
 
 That's it!
