@@ -17,4 +17,4 @@ install -d /usr/share/doc/linux-4.9.9
 cp -r Documentation/* /usr/share/doc/linux-4.9.9
 
 cd $LFS/sources
-rm -rf linux-4.4.2
+rm -rf linux-4.9.9
