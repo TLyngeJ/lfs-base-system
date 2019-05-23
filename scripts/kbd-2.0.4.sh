@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.59. Kbd-2.0.4
+# 6.66. Kbd-2.0.4
 set -e
 cd $LFS/sources
 rm -rf kbd-2.0.4

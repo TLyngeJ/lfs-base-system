@@ -1,5 +1,5 @@
 #!/bin/bash
-# 6.63. Sysklogd-1.5.1
+# 6.70. Sysklogd-1.5.1
 set -e
 cd $LFS/sources
 rm -rf sysklogd-1.5.1
@@ -8,11 +8,8 @@ cd sysklogd-1.5.1
 
 sed -i '/Error loading kernel symbols/{n;n;d}' ksym_mod.c
 sed -i 's/union wait/int/' syslogd.c
-
 make
-
 make BINDIR=/sbin install
-
 cat > /etc/syslog.conf << "EOF"
 # Begin /etc/syslog.conf
 

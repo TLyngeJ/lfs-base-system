@@ -11,8 +11,8 @@ echo "*********************************"
 echo
 
 # 7.2. LFS-Bootscripts-20150222
-echo "7.2. LFS-Bootscripts-20150222"
-sh /scripts/LFS-Bootscripts-20150222.sh > /sources/logs/LFS-Bootscripts-20150222 2>&1
+echo "7.2. LFS-Bootscripts-20180820"
+sh /scripts/LFS-Bootscripts-20180820.sh > /sources/logs/LFS-Bootscripts-20180820 2>&1
 
 bash /lib/udev/init-net-rules.sh
 
@@ -28,9 +28,9 @@ sh /scripts/inputrc.sh > /sources/logs/inputrc 2>&1
 echo "7.9. Creating the /etc/shells File"
 sh /scripts/shells.sh > /sources/logs/shells 2>&1
 
-# 8.3. Linux-4.9.9
-echo "8.3. Linux-4.9.9"
-sh /scripts/linux-4.9.9.sh > /sources/logs/linux-4.9.9 2>&1
+# 8.3. Linux-4.18.5
+echo "8.3. Linux-4.18.5"
+sh /scripts/linux-4.18.5.sh > /sources/logs/linux-4.18.5 2>&1
 
 echo
 echo "***********************************"
